@@ -16,6 +16,16 @@
 		09E675CA2374741500020514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E675C92374741500020514 /* main.m */; };
 		09E675D42374741600020514 /* RunLoopTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E675D32374741600020514 /* RunLoopTestTests.m */; };
 		09E675DF2374741600020514 /* RunLoopTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E675DE2374741600020514 /* RunLoopTestUITests.m */; };
+		09E675EF23747B4500020514 /* NSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E675EE23747B4500020514 /* NSTimerViewController.m */; };
+		09E675F323747F3000020514 /* DelayLoadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E675F223747F3000020514 /* DelayLoadImageViewController.m */; };
+		09E675FA2374837900020514 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E675F82374837900020514 /* MyTableViewCell.m */; };
+		09E675FB2374837900020514 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E675F92374837900020514 /* MyTableViewCell.xib */; };
+		09E675FD2374859E00020514 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E675FC2374859E00020514 /* 1.jpg */; };
+		09E676012374FA4C00020514 /* ModeSourceTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E676002374FA4C00020514 /* ModeSourceTimerViewController.m */; };
+		09E6760523754A5600020514 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E6760423754A5600020514 /* SourceViewController.m */; };
+		09E676092375598900020514 /* StillThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E676082375598900020514 /* StillThreadViewController.m */; };
+		09E6760B2377E2B200020514 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 09E6760A2377E2B200020514 /* 2.jpeg */; };
+		09E6760D2377E2CA00020514 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E6760C2377E2CA00020514 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,22 @@
 		09E675DA2374741600020514 /* RunLoopTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E675DE2374741600020514 /* RunLoopTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTestUITests.m; sourceTree = "<group>"; };
 		09E675E02374741600020514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E675ED23747B4500020514 /* NSTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimerViewController.h; sourceTree = "<group>"; };
+		09E675EE23747B4500020514 /* NSTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerViewController.m; sourceTree = "<group>"; };
+		09E675F123747F3000020514 /* DelayLoadImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelayLoadImageViewController.h; sourceTree = "<group>"; };
+		09E675F223747F3000020514 /* DelayLoadImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelayLoadImageViewController.m; sourceTree = "<group>"; };
+		09E675F72374837900020514 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		09E675F82374837900020514 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		09E675F92374837900020514 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		09E675FC2374859E00020514 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		09E675FF2374FA4C00020514 /* ModeSourceTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModeSourceTimerViewController.h; sourceTree = "<group>"; };
+		09E676002374FA4C00020514 /* ModeSourceTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModeSourceTimerViewController.m; sourceTree = "<group>"; };
+		09E6760323754A5600020514 /* SourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		09E6760423754A5600020514 /* SourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
+		09E676072375598900020514 /* StillThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StillThreadViewController.h; sourceTree = "<group>"; };
+		09E676082375598900020514 /* StillThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StillThreadViewController.m; sourceTree = "<group>"; };
+		09E6760A2377E2B200020514 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		09E6760C2377E2CA00020514 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +130,11 @@
 		09E675B62374740600020514 /* RunLoopTest */ = {
 			isa = PBXGroup;
 			children = (
+				09E676062375595C00020514 /* 常驻线程 */,
+				09E676022375445B00020514 /* source演练 */,
+				09E675FE2374F9CD00020514 /* timer observer演练 */,
+				09E675F023747EFC00020514 /* 解决加载大量图片卡顿 */,
+				09E675EC23747B1D00020514 /* NSTimer在子线程 */,
 				09E675B72374740600020514 /* AppDelegate.h */,
 				09E675B82374740600020514 /* AppDelegate.m */,
 				09E675BA2374740600020514 /* SceneDelegate.h */,
@@ -135,6 +166,57 @@
 				09E675E02374741600020514 /* Info.plist */,
 			);
 			path = RunLoopTestUITests;
+			sourceTree = "<group>";
+		};
+		09E675EC23747B1D00020514 /* NSTimer在子线程 */ = {
+			isa = PBXGroup;
+			children = (
+				09E675ED23747B4500020514 /* NSTimerViewController.h */,
+				09E675EE23747B4500020514 /* NSTimerViewController.m */,
+			);
+			path = "NSTimer在子线程";
+			sourceTree = "<group>";
+		};
+		09E675F023747EFC00020514 /* 解决加载大量图片卡顿 */ = {
+			isa = PBXGroup;
+			children = (
+				09E675F123747F3000020514 /* DelayLoadImageViewController.h */,
+				09E675F223747F3000020514 /* DelayLoadImageViewController.m */,
+				09E675F72374837900020514 /* MyTableViewCell.h */,
+				09E675F82374837900020514 /* MyTableViewCell.m */,
+				09E675F92374837900020514 /* MyTableViewCell.xib */,
+				09E675FC2374859E00020514 /* 1.jpg */,
+				09E6760A2377E2B200020514 /* 2.jpeg */,
+				09E6760C2377E2CA00020514 /* 3.jpg */,
+			);
+			path = "解决加载大量图片卡顿";
+			sourceTree = "<group>";
+		};
+		09E675FE2374F9CD00020514 /* timer observer演练 */ = {
+			isa = PBXGroup;
+			children = (
+				09E675FF2374FA4C00020514 /* ModeSourceTimerViewController.h */,
+				09E676002374FA4C00020514 /* ModeSourceTimerViewController.m */,
+			);
+			path = "timer observer演练";
+			sourceTree = "<group>";
+		};
+		09E676022375445B00020514 /* source演练 */ = {
+			isa = PBXGroup;
+			children = (
+				09E6760323754A5600020514 /* SourceViewController.h */,
+				09E6760423754A5600020514 /* SourceViewController.m */,
+			);
+			path = "source演练";
+			sourceTree = "<group>";
+		};
+		09E676062375595C00020514 /* 常驻线程 */ = {
+			isa = PBXGroup;
+			children = (
+				09E676072375598900020514 /* StillThreadViewController.h */,
+				09E676082375598900020514 /* StillThreadViewController.m */,
+			);
+			path = "常驻线程";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E675C72374741500020514 /* LaunchScreen.storyboard in Resources */,
+				09E675FB2374837900020514 /* MyTableViewCell.xib in Resources */,
+				09E675FD2374859E00020514 /* 1.jpg in Resources */,
 				09E675C42374741500020514 /* Assets.xcassets in Resources */,
+				09E6760D2377E2CA00020514 /* 3.jpg in Resources */,
 				09E675C22374740600020514 /* Main.storyboard in Resources */,
+				09E6760B2377E2B200020514 /* 2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E676012374FA4C00020514 /* ModeSourceTimerViewController.m in Sources */,
+				09E676092375598900020514 /* StillThreadViewController.m in Sources */,
 				09E675BF2374740600020514 /* ViewController.m in Sources */,
+				09E675FA2374837900020514 /* MyTableViewCell.m in Sources */,
 				09E675B92374740600020514 /* AppDelegate.m in Sources */,
 				09E675CA2374741500020514 /* main.m in Sources */,
+				09E6760523754A5600020514 /* SourceViewController.m in Sources */,
+				09E675EF23747B4500020514 /* NSTimerViewController.m in Sources */,
+				09E675F323747F3000020514 /* DelayLoadImageViewController.m in Sources */,
 				09E675BC2374740600020514 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

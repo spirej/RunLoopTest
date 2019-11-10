@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="157" id="KGk-i7-Jjw" customClass="MyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="487" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="487" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="llI-lU-dUX">
+                        <rect key="frame" x="20" y="50" width="115.5" height="85"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HVU-xZ-Odr">
+                        <rect key="frame" x="185.5" y="50" width="116" height="85"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oMO-Cf-lRb">
+                        <rect key="frame" x="351.5" y="50" width="115.5" height="85"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="runloop性能优化，一次绘制一张图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9y-sy-S7W">
+                        <rect key="frame" x="20" y="10" width="284" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HVU-xZ-Odr" firstAttribute="height" secondItem="llI-lU-dUX" secondAttribute="height" id="0yN-6W-tGz"/>
+                    <constraint firstItem="HVU-xZ-Odr" firstAttribute="centerY" secondItem="llI-lU-dUX" secondAttribute="centerY" id="4Rp-8v-iV1"/>
+                    <constraint firstAttribute="trailing" secondItem="oMO-Cf-lRb" secondAttribute="trailing" constant="20" id="8hB-zF-2vS"/>
+                    <constraint firstItem="oMO-Cf-lRb" firstAttribute="height" secondItem="llI-lU-dUX" secondAttribute="height" id="Bh1-hx-sqv"/>
+                    <constraint firstItem="llI-lU-dUX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="JVp-RM-K2K"/>
+                    <constraint firstAttribute="bottom" secondItem="llI-lU-dUX" secondAttribute="bottom" constant="15" id="LPM-8V-Bi1"/>
+                    <constraint firstItem="c9y-sy-S7W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="VcL-wa-QVb"/>
+                    <constraint firstItem="oMO-Cf-lRb" firstAttribute="leading" secondItem="HVU-xZ-Odr" secondAttribute="trailing" constant="50" id="Zh1-bX-NhU"/>
+                    <constraint firstItem="llI-lU-dUX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="50" id="aWm-k2-pEn"/>
+                    <constraint firstItem="HVU-xZ-Odr" firstAttribute="width" secondItem="llI-lU-dUX" secondAttribute="width" id="aqe-NL-3cm"/>
+                    <constraint firstItem="oMO-Cf-lRb" firstAttribute="centerY" secondItem="HVU-xZ-Odr" secondAttribute="centerY" id="cn6-uh-akh"/>
+                    <constraint firstItem="HVU-xZ-Odr" firstAttribute="leading" secondItem="llI-lU-dUX" secondAttribute="trailing" constant="50" id="iG4-pA-bDC"/>
+                    <constraint firstItem="c9y-sy-S7W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="jJn-bl-j2H"/>
+                    <constraint firstItem="oMO-Cf-lRb" firstAttribute="width" secondItem="llI-lU-dUX" secondAttribute="width" id="mA2-v2-yyp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="icon1" destination="llI-lU-dUX" id="hbl-E7-WCT"/>
+                <outlet property="icon2" destination="HVU-xZ-Odr" id="U1L-ut-aED"/>
+                <outlet property="icon3" destination="oMO-Cf-lRb" id="VOh-ln-BwC"/>
+            </connections>
+            <point key="canvasLocation" x="258.69565217391306" y="127.56696428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
